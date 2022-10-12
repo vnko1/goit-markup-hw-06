@@ -466,6 +466,20 @@
             </li>
           </ul>
         </div>
+        <div class="footer-form-container">
+          <p class="footer-form-text">Підпишіться на розсилку</p>
+          <form class="footer-form" name="signup-form" autocomplete="off">
+            <input
+              class="footer-form-input"
+              type="email"
+              name="email"
+              placeholder="E-mail"
+            />
+            <button class="footer-form-button" type="submit">
+              Підписатися
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="hero-backdrop is-hidden" data-modal>
@@ -475,6 +489,42 @@
             <use href="./images/sprite.svg#icon-close"></use>
           </svg>
         </button>
+        <p class="hero-modal-text">Залиште свої дані, ми вам передзвонимо</p>
+        <form class="hero-form" name="data-form">
+          <label class="hero-form-label">
+            <input class="hero-form-input" type="text" name="user-name" />
+            <span class="hero-label-text">Ім'я</span>
+          </label>
+          <label class="hero-form-label">
+            <input class="hero-form-input" type="tel" name="tel" />
+            <span class="hero-label-text">Телефон</span>
+          </label>
+          <label class="hero-form-label">
+            <input class="hero-form-input" type="email" name="email" />
+            <span class="hero-label-text">Пошта</span>
+          </label>
+          <label class="hero-form-label">
+            <textarea
+              class="hero-form-textarea"
+              name="feedback"
+              placeholder="Введіть текст"
+            >
+            </textarea>
+            <span class="hero-label-text">Коментар</span>
+          </label>
+          <label class="hero-form-label">
+            <input
+              class="hero-form-input"
+              type="checkbox"
+              name="policy-agreement"
+            />
+            <span class="hero-label-text"
+              >Погоджуюся з розсилкою та приймаю
+              <a href="#" class="hero-label-link">Умови договору</a></span
+            >
+          </label>
+          <button class="hero-form-button" type="submit">Відправити</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
