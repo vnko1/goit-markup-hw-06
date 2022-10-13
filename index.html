@@ -84,7 +84,7 @@
           <ul class="benefits-list list">
             <li class="benefits-item">
               <div class="benefits-icon-container">
-                <svg class="benefits-item-icon button" width="70" height="70">
+                <svg class="benefits-item-icon" width="70" height="70">
                   <use href="./images/sprite.svg#icon-antenna"></use>
                 </svg>
               </div>
@@ -493,27 +493,36 @@
           </svg>
         </button>
         <p class="hero-modal-text">Залиште свої дані, ми вам передзвонимо</p>
-        <form class="hero-form" name="data-form">
+        <form class="hero-form" name="data-form" autocomplete="off">
           <label class="hero-form-label">
-            <input class="hero-form-input" type="text" name="user-name" />
             <span class="hero-label-text">Ім'я</span>
+            <input class="hero-form-input" type="text" name="user-name" />
+            <svg class="hero-form-icon" width="18" height="18">
+              <use href="./images/sprite.svg#icon-person"></use>
+            </svg>
           </label>
           <label class="hero-form-label">
-            <input class="hero-form-input" type="tel" name="tel" />
             <span class="hero-label-text">Телефон</span>
+            <input class="hero-form-input" type="tel" name="tel" />
+            <svg class="hero-form-icon" width="18" height="18">
+              <use href="./images/sprite.svg#icon-phone"></use>
+            </svg>
           </label>
           <label class="hero-form-label">
-            <input class="hero-form-input" type="email" name="email" />
             <span class="hero-label-text">Пошта</span>
+            <input class="hero-form-input" type="email" name="email" />
+            <svg class="hero-form-icon" width="18" height="18">
+              <use href="./images/sprite.svg#icon-email"></use>
+            </svg>
           </label>
           <label class="hero-form-label">
+            <span class="hero-label-text">Коментар</span>
             <textarea
               class="hero-form-textarea"
               name="feedback"
               placeholder="Введіть текст"
             >
             </textarea>
-            <span class="hero-label-text">Коментар</span>
           </label>
           <label class="hero-form-label">
             <input
