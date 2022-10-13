@@ -496,24 +496,30 @@
         <form class="hero-form" name="data-form" autocomplete="off">
           <label class="hero-form-label">
             <span class="hero-label-text">Ім'я</span>
-            <input class="hero-form-input" type="text" name="user-name" />
-            <svg class="hero-form-icon" width="18" height="18">
-              <use href="./images/sprite.svg#icon-person"></use>
-            </svg>
+            <div class="hero-form-container">
+              <input class="hero-form-input" type="text" name="user-name" />
+              <svg class="hero-form-icon" width="18" height="18">
+                <use href="./images/sprite.svg#icon-person"></use>
+              </svg>
+            </div>
           </label>
           <label class="hero-form-label">
             <span class="hero-label-text">Телефон</span>
-            <input class="hero-form-input" type="tel" name="tel" />
-            <svg class="hero-form-icon" width="18" height="18">
-              <use href="./images/sprite.svg#icon-phone"></use>
-            </svg>
+            <div class="hero-form-container">
+              <input class="hero-form-input" type="tel" name="tel" />
+              <svg class="hero-form-icon" width="18" height="18">
+                <use href="./images/sprite.svg#icon-phone"></use>
+              </svg>
+            </div>
           </label>
           <label class="hero-form-label">
             <span class="hero-label-text">Пошта</span>
-            <input class="hero-form-input" type="email" name="email" />
-            <svg class="hero-form-icon" width="18" height="18">
-              <use href="./images/sprite.svg#icon-email"></use>
-            </svg>
+            <div class="hero-form-container">
+              <input class="hero-form-input" type="email" name="email" />
+              <svg class="hero-form-icon" width="18" height="18">
+                <use href="./images/sprite.svg#icon-email"></use>
+              </svg>
+            </div>
           </label>
           <label class="hero-form-label">
             <span class="hero-label-text">Коментар</span>
@@ -524,18 +530,21 @@
             >
             </textarea>
           </label>
-          <label class="hero-form-label">
+          <label class="hero-form-label checkbox-label">
             <input
-              class="hero-form-input"
+              class="hero-form-input checkbox"
               type="checkbox"
               name="policy-agreement"
             />
+            <svg class="hero-checkbox-icon" width="16" height="15">
+              <use href="./images/sprite.svg#icon-check"></use>
+            </svg>
             <span class="hero-label-text"
               >Погоджуюся з розсилкою та приймаю
-              <a href="#" class="hero-label-link">Умови договору</a></span
+              <a href="#" class="hero-label-link link">Умови договору</a></span
             >
           </label>
-          <button class="hero-form-btn" type="submit">Відправити</button>
+          <button class="hero-form-btn button" type="submit">Відправити</button>
         </form>
       </div>
     </div>
