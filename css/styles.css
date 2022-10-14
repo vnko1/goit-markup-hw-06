@@ -279,7 +279,7 @@ ul {
   top: 50%;
   left: 12px;
   transform: translateY(-50%);
-  fill: currentColor;
+  fill: var(--main-color);
   transition: fill var(--main-transition-duration-value)
     var(--main-timing-function-value);
 }
