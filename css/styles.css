@@ -338,7 +338,7 @@ ul {
 .checkbox:checked + .hero-checkbox-icon {
   fill: var(--secondary-color);
   border-color: transparent;
-  background-color: var(--hover-hero-btn-color);
+  background-color: var(--accent-color);
 }
 
 .checkbox:focus + .hero-checkbox-icon {
