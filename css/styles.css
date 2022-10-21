@@ -356,6 +356,7 @@ ul {
   margin: 0 auto;
   min-width: 200px;
   height: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transition: background-color var(--main-transition-duration-value)
       var(--main-timing-function-value),
     box-shadow var(--main-transition-duration-value)
@@ -365,7 +366,7 @@ ul {
 .hero-form-btn:hover,
 .hero-form-btn:focus {
   background-color: var(--hover-hero-btn-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: none;
 }
 
 /* HEADER */
